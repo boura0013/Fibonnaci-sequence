@@ -1,3 +1,5 @@
+#Import time module so that I can add a delay later in the program
+from time import *
 #Fibbonacci number array that will be written to and read from during code with starting 2 numbers
 FibonnaciNumberArray = [1,1]
 #Loop with essentially infinite value(we use a loop rather than an infinite while statement because it gives us
@@ -10,3 +12,5 @@ for i in range(100000000000000):
     print(FibonnaciNumberArray)
     #Increase the counter variable at the end of the loop
     i = i + 1
+    #Add a delay so that we can see each number being outputted and for added stability
+    time.sleep(0.5)
