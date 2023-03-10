@@ -1,5 +1,5 @@
 #Import time module so that I can add a delay later in the program
-from time import *
+import time
 #Fibbonacci number array that will be written to and read from during code with starting 2 numbers
 FibonnaciNumberArray = [1,1]
 #Loop with essentially infinite value(we use a loop rather than an infinite while statement because it gives us
