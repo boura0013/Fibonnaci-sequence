@@ -2,7 +2,7 @@
 import time
 #Fibbonacci number array that will be written to and read from during code with starting 2 numbers
 FibonnaciNumberArray = [1,1]
-EndNumber = input("How many fibonnaci numbers do you want to generate?:")
+EndNumber = int(input("How many fibonnaci numbers do you want to generate?:"))
 #Loop with essentially infinite value(we use a loop rather than an infinite while statement because it gives us
 # a convenient counter variable(i))
 #You can change the range to decide how many numbers you want to output
